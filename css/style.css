@@ -82,7 +82,7 @@ header {
 .nav-menu a:hover {
   opacity: 0.8;
 }
-
+/* nav animations*/
 .nav-menu a::after {
   content: "";
   position: absolute;
