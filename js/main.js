@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileMenuToggle = document.getElementById("mobileMenuToggle")
   const navMenu = document.getElementById("navMenu")
 
-  // Toggle mobile menu
+  //  mobile menu
   mobileMenuToggle.addEventListener("click", () => {
     navMenu.classList.toggle("active")
 
-    // Change hamburger icon
+    // Change icon
     if (navMenu.classList.contains("active")) {
       mobileMenuToggle.innerHTML = "✕"
     } else {
